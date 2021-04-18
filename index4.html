@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Niam Bashambu's GOA Project</title>
+    <style type = 'text/css'>
+    *{
+      box-sizing: border-box;
+    }
+    body{
+      margin:0;
+      padding: 0;
+      min-height: 100vh;
+      min-width: 100vw;
+
+    }
+
+  .grid-container {
+      display: grid;
+      min-height: 100vh;
+        grid-template-columns: 25% auto;
+        grid-template-rows: 1fr 3fr 1fr;
+
+        grid-template-areas:
+          "hd hd "
+          "sd main"
+          "ft ft";
+    }
+
+div#topbox{
+  grid-area:hd;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+
+
+
+  flex-direction: column;
+
+}
+div#header{
+  background-color:grey;
+  padding: 10px;
+  font-size: 3em;
+  font-weight: bold;
+
+}
+div#header2{
+  background-color: grey;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 2em;
+
+}
+div#left{
+  grid-area:sd;
+  background-color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div.navbar{
+min-width: 60%;
+min-height:20%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+
+
+}
+div#project{
+  background-color:white;
+  padding: 10px;
+   color:black;
+   font-weight: bold;
+
+
+
+}
+div#project > div.navitem{
+  background-color:grey;
+  margin:2%;
+  padding: 2%;
+  text-decoration: none;
+
+
+
+}
+div#Favorites{
+  background-color: white;
+  padding: 10px;
+   color:Black;
+   font-weight: bold;
+
+
+
+}
+div#Favorites > div.navitem{
+  background-color: grey;
+  margin:2%;
+  padding: 2%;
+  text-decoration: none;
+
+}
+div.navitem a.navlink:hover{
+color: black;
+  background-color:lightblue;
+}
+div.navitem a.navlink:active{
+  color: yellow;
+  background-color:white;
+  text-decoration: none;
+}
+a.navlink{
+  text-decoration: none;
+  color:white;
+}
+
+
+div#right{
+  grid-area:main;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+img#image{
+  width:40%;
+
+}
+div#righttext{
+  color:black;
+  background-color: white;
+  font-size: 1em;
+  text-align: center;
+  
+}
+
+div#bottom{
+  grid-area:ft;
+  
+
+}
+
+
+
+
+
+
+    </style>
+  </head>
+  <body>
+
+  <div class = 'grid-container'>
+    <div id = 'topbox'>
+    <div id = "header" class = 'head'>The Forgotten Issue: How Do We Prevent and Fix Homelessness?</div>
+    <div id = "header2" class = 'head'>Niam Bashambu</div>
+
+  </div>
+
+    <div id = 'left'>
+
+    <div id = "project" class = 'navbar'> History of the Problem
+    
+      <div class = navitem><a class = 'navlink' href = "index2.html">GO THERE</a></div>
+    </div>
+<br>
+    <div id = "Favorites" class = 'navbar'> Present Issue
+      <div class = navitem><a class = 'navlink'href = "index3.html">Recent Data</a></div>
+      <div class = navitem><a class = 'navlink' href = "index4.html">Oakland Specifally</a></div>
+      <div class = navitem><a class = 'navlink' href = 'portfolio.html'>GO BACK</a></div>
+    </div>
+  </div>
+    <div id = 'right'>
+    <img id = "image" src = "https://lh3.googleusercontent.com/Vj8U0iLK5k2XSadNHxUlBZ2ZDnHVVBPxqUoJGElCtzWTrCGMrZ_WczMRPSuunELvJtNztw=s169"></img>
+   <br>
+   <br>
+    <div id = 'righttext'>Although homelessness is an issue that has affected the United States for a long time and continues to become more widespread every year, there are a few ways to potentially fix the issue. Understanding now, that what has happened in the past did not work, most agencies and initiatives have become more creative in finding solutions. Some of these solutions include more available and affordable housing to help unhoused people get off the streets and become financially independent. For example, in my city, Oakland, CA, community cabins are being constructed to provide housing for the homeless as a short-term fix (“Oakland.Gov”). In the long term, they hope to provide affordable housing for all and possibly pay rent for those that can not afford it. In the United States on a federal level, there is a large emphasis on preventing homelessness before it begins. (“United States Interagency Council on Homelessness”). Some of these prevention initiatives include reducing criminal justice involvement and building career paths for the formerly homeless. With these steps are some of the building blocks to end homelessness, the USIC hopes to end this recurring cycle. However, the recent COVID-19 pandemic has resulted in many of these efforts being ineffective. Hopefully, in the future this pandemic will end, so we can address the communities in need of support and assistance.</div>
+  </div>
+  <div id = 'bottom'>
+    <div id = "footer"></div>
+  </div>
+
+  </div>
+  </body>
+</html>

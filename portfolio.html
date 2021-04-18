@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Niam Bashambu's GOA Project</title>
+    <style type = 'text/css'>
+    *{
+      box-sizing: border-box;
+    }
+    body{
+      margin:0;
+      padding: 0;
+      min-height: 100vh;
+      min-width: 100vw;
+
+    }
+
+  .grid-container {
+      display: grid;
+      min-height: 100vh;
+        grid-template-columns: 25% auto;
+        grid-template-rows: 1fr 3fr 1fr;
+
+        grid-template-areas:
+          "hd hd "
+          "sd main"
+          "ft ft";
+    }
+
+div#topbox{
+  grid-area:hd;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+
+
+
+  flex-direction: column;
+
+}
+div#header{
+  background-color:grey;
+  padding: 10px;
+  font-size: 3em;
+  font-weight: bold;
+
+}
+div#header2{
+  background-color: grey;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 2em;
+
+}
+div#left{
+  grid-area:sd;
+  background-color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div.navbar{
+min-width: 60%;
+min-height:20%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+
+
+}
+div#project{
+  background-color:white;
+  padding: 10px;
+   color:black;
+   font-weight: bold;
+
+
+
+}
+div#project > div.navitem{
+  background-color:grey;
+  margin:2%;
+  padding: 2%;
+  text-decoration: none;
+
+
+
+}
+div#Favorites{
+  background-color: white;
+  padding: 10px;
+   color:Black;
+   font-weight: bold;
+
+
+
+}
+div#Favorites > div.navitem{
+  background-color: grey;
+  margin:2%;
+  padding: 2%;
+  text-decoration: none;
+
+}
+div.navitem a.navlink:hover{
+color: black;
+  background-color:lightblue;
+}
+div.navitem a.navlink:active{
+  color: yellow;
+  background-color:white;
+  text-decoration: none;
+}
+a.navlink{
+  text-decoration: none;
+  color:white;
+}
+
+
+div#right{
+  grid-area:main;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+img#image{
+  width:40%;
+
+}
+div#righttext{
+  color:black;
+  background-color: white;
+  font-size: 2em;
+  text-align: center;
+  
+}
+
+div#bottom{
+  grid-area:ft;
+  
+
+}
+
+
+
+
+
+
+    </style>
+  </head>
+  <body>
+
+  <div class = 'grid-container'>
+    <div id = 'topbox'>
+    <div id = "header" class = 'head'>The Forgotten Issue: How Do We Prevent and Fix Homelessness?</div>
+    <div id = "header2" class = 'head'>Niam Bashambu</div>
+
+  </div>
+
+    <div id = 'left'>
+
+    <div id = "project" class = 'navbar'> History of the Problem
+    
+      <div class = navitem><a class = 'navlink' href = "index2.html">GO THERE</a></div>
+    </div>
+<br>
+    <div id = "Favorites" class = 'navbar'> Present Issue
+      <div class = navitem><a class = 'navlink'href = "index3.html">Recent Data</a></div>
+      <div class = navitem><a class = 'navlink' href = "index4.html">Oakland Specifally</a></div>
+      <div class = navitem><a class = 'navlink' href = 'https://youtu.be/njdk7f6EVFI'>Video</a></div>
+      <div class = navitem><a class = 'navlink' href = 'index6.html'>Conclusion</a></div>
+      <div class = navitem><a class = 'navlink' href = 'https://docs.google.com/document/d/115y-Jp4QHTucmme66EU8DgAQsat-rQSxgGGZmyUB3uw/edit?usp=sharing'>Works Cited</a></div>
+      <div class = navitem><a class = 'navlink' href = 'http://nationalhomeless.org/want_to_help/'>What You Can Do</a></div>
+    </div>
+  </div>
+    <div id = 'right'>
+    <img id = "image" src = "https://images.theconversation.com/files/276680/original/file-20190528-193544-j6g0ue.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=675.0&fit=crop"></img>
+   <br>
+   <br>
+    <div id = 'righttext'>Despite numerous attempts to fix it, homelessness continues to affect citizens across the country. As taxes and housing prices skyrocket, low-income communities take the hardest hit. To understand how to prevent homelessness and fix government legislation, we must ask ourselves one simple question: what is being done to fix homelessness now?</div>
+  </div>
+  <div id = 'bottom'>
+    <div id = "footer"></div>
+  </div>
+
+  </div>
+  </body>
+</html>

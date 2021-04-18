@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Niam Bashambu's GOA Project</title>
+    <style type = 'text/css'>
+    *{
+      box-sizing: border-box;
+    }
+    body{
+      margin:0;
+      padding: 0;
+      min-height: 100vh;
+      min-width: 100vw;
+
+    }
+
+  .grid-container {
+      display: grid;
+      min-height: 100vh;
+        grid-template-columns: 25% auto;
+        grid-template-rows: 1fr 3fr 1fr;
+
+        grid-template-areas:
+          "hd hd "
+          "sd main"
+          "ft ft";
+    }
+
+div#topbox{
+  grid-area:hd;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+
+
+
+  flex-direction: column;
+
+}
+div#header{
+  background-color:grey;
+  padding: 10px;
+  font-size: 3em;
+  font-weight: bold;
+
+}
+div#header2{
+  background-color: grey;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 2em;
+
+}
+div#left{
+  grid-area:sd;
+  background-color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div.navbar{
+min-width: 60%;
+min-height:20%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+
+
+}
+div#project{
+  background-color:white;
+  padding: 10px;
+   color:black;
+   font-weight: bold;
+
+
+
+}
+div#project > div.navitem{
+  background-color:grey;
+  margin:2%;
+  padding: 2%;
+  text-decoration: none;
+
+
+
+}
+div#Favorites{
+  background-color: white;
+  padding: 10px;
+   color:Black;
+   font-weight: bold;
+
+
+
+}
+div#Favorites > div.navitem{
+  background-color: grey;
+  margin:2%;
+  padding: 2%;
+  text-decoration: none;
+
+}
+div.navitem a.navlink:hover{
+color: black;
+  background-color:lightblue;
+}
+div.navitem a.navlink:active{
+  color: yellow;
+  background-color:white;
+  text-decoration: none;
+}
+a.navlink{
+  text-decoration: none;
+  color:white;
+}
+
+
+div#right{
+  grid-area:main;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+img#image{
+  width:40%;
+
+}
+div#righttext{
+  color:black;
+  background-color: white;
+  font-size: 1em;
+  text-align: center;
+  
+}
+
+div#bottom{
+  grid-area:ft;
+  
+
+}
+
+
+
+
+
+
+    </style>
+  </head>
+  <body>
+
+  <div class = 'grid-container'>
+    <div id = 'topbox'>
+    <div id = "header" class = 'head'>The Forgotten Issue: How Do We Prevent and Fix Homelessness?</div>
+    <div id = "header2" class = 'head'>Niam Bashambu</div>
+
+  </div>
+
+    <div id = 'left'>
+
+    <div id = "project" class = 'navbar'> History of the Problem
+    
+      <div class = navitem><a class = 'navlink' href = "index2.html">GO THERE</a></div>
+    </div>
+<br>
+    <div id = "Favorites" class = 'navbar'> Present Issue
+      <div class = navitem><a class = 'navlink'href = "index3.html">GO THERE</a></div>
+      <div class = navitem><a class = 'navlink' href = "portfolio.html">GO BACK</a></div>
+    </div>
+  </div>
+    <div id = 'right'>
+    <img id = "image" src = "https://lh5.googleusercontent.com/YUShQpaQ1mIN8f9q1B3SdTikvbynFgh8AY9AaYG6xBGdK-R8AZDjTbm1icqAczNoDBDlYkZVozW6lM2QQvPEzsXmPMFMLoECDqdR-SfTNnMG2s0qGN3wiD_InTP3tQmtQPZcoIx0"></img>
+   <br>
+    <div id = 'righttext'>Homelessness in the United States has continued to grow over the last 40 years, despite many efforts to reduce it. As with the policies in the 1980s, many welfare policies and homeless shelters have been created in hopes of reducing the amount of homeless. However, the rate of homelessness has continued to rise. It was up to 567,000 in December 2019 (“Homeless People in the U.S. 2007-2019” ). And as homelessness continued to rise, many Senate Democrats introduced the End Homelessness Act to create some change. This bill would appropriate $13.27 billion to fund federal housing and resources to help the homeless. This money would be spent to create permanent housing units in addition to vouchers. Furthermore, it would allow the creation of 25,000 units for low-income families (US House Committee on Financial Services). However, no action has been taken on this bill.</div>
+  </div>
+  <div id = 'bottom'>
+    <div id = "footer"></div>
+  </div>
+
+  </div>
+  </body>
+</html>

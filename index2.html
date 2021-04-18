@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Niam Bashambu's GOA Project</title>
+    <style type = 'text/css'>
+    *{
+      box-sizing: border-box;
+    }
+    body{
+      margin:0;
+      padding: 0;
+      min-height: 100vh;
+      min-width: 100vw;
+
+    }
+
+  .grid-container {
+      display: grid;
+      min-height: 100vh;
+        grid-template-columns: 25% auto;
+        grid-template-rows: 1fr 3fr 1fr;
+
+        grid-template-areas:
+          "hd hd "
+          "sd main"
+          "ft ft";
+    }
+
+div#topbox{
+  grid-area:hd;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+
+
+
+  flex-direction: column;
+
+}
+div#header{
+  background-color:grey;
+  padding: 10px;
+  font-size: 3em;
+  font-weight: bold;
+
+}
+div#header2{
+  background-color: grey;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 2em;
+
+}
+div#left{
+  grid-area:sd;
+  background-color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div.navbar{
+min-width: 60%;
+min-height:20%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+
+
+}
+div#project{
+  background-color: white;
+  padding: 10px;
+   color: black;
+   font-weight: bold;
+
+
+
+}
+div#project > div.navitem{
+  background-color: grey;
+  margin:2%;
+  padding: 2%;
+  text-decoration: none;
+
+
+
+}
+div#Favorites{
+  background-color: white;
+  padding: 10px;
+   color: black;
+
+
+
+}
+div#Favorites > div.navitem{
+  background-color: grey;
+  margin:2%;
+  padding: 2%;
+  text-decoration: none;
+
+}
+div.navitem a.navlink:hover{
+color:black;
+  background-color:lightblue;
+}
+div.navitem a.navlink:active{
+  color: yellow;
+  background-color:white;
+  text-decoration: none;
+}
+a.navlink{
+  text-decoration: none;
+  color:white;
+}
+
+
+div#right{
+  grid-area:main;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+img#image{
+  width:40%;
+
+}
+div#righttext{
+  color:black;
+  
+  font-size: 1em;
+  text-align: center;
+  
+}
+
+div#bottom{
+  grid-area:ft;
+  
+
+}
+
+
+
+
+
+
+    </style>
+  </head>
+  <body>
+
+  <div class = 'grid-container'>
+    <div id = 'topbox'>
+    <div id = "header" class = 'head'>The Forgotten Issue: How Do We Prevent and Fix Homelessness?</div>
+    <div id = "header2" class = 'head'>Niam Bashambu</div>
+
+  </div>
+
+    <div id = 'left'>
+
+    <div id = "project" class = 'navbar'> History of the Problem
+      <div class = navitem><a class = 'navlink' href = "index2.html">GO THERE</a></div>
+     <div class = navitem><a class = 'navlink' href = "portfolio.html">GO BACK</a></div>
+    </div>
+<br>
+    
+  </div>
+    <div id = 'right'>
+    <img id = "image" src = "https://images.theconversation.com/files/276680/original/file-20190528-193544-j6g0ue.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=675.0&fit=crop"></img>
+   <br>
+   <br>
+    <div id = 'righttext'>Before we can develop solutions to the issue of homelessness, we must understand how homelessness has affected us in the past and how we can use what we have learned in the past and apply it to what we do in the current day. Let’s first go back to the 1940s. During this time, WWII was being fought overseas. After the Allies’  victory, a time of prosperity began in the US. This honeymoon period lasted from the 1950s to the 1970s. During this time, the income disparity between the rich and poor narrowed and manufacturing was prospering. However, in the late 1970s, this trend reversed, and the change in course was dubbed the “Great U-turn”(“What Led to the Rise of Homelessness.”). Deindustrialization occurred and wages dropped. Three-quarters of all jobs during the 1980s were at the minimum wage level. In the early 1980s, 15 percent of American citizens were living below the poverty line (“What Led to the Rise of Homelessness.”). Because of this, the number of housing units was reduced at an alarming rate. The result of all of this was millions of Americans below the poverty line and homeless. To combat this, welfare systems were restructured similar to those of the Nixon era, helping the millions struggling to get by. Welfare rolls were introduced and provided the poor with a stable income until they could find a job and make a stable income of their own. However, this system came under many attacks for its lack of effectiveness. According to Charles Murray’s book, Losing Ground: American Social Policy, 1950-1980, these welfare systems hurt the poor by discouraging them from working. It trapped families in a cycle of welfare dependency and created more poverty. Although many other pieces of legislation were passed during this time to combat poverty and homelessness, not much has changed. Homelessness continues to affect us.</div>
+  </div>
+  <div id = 'bottom'>
+    <div id = "footer"></div>
+  </div>
+
+  </div>
+  </body>
+</html>
